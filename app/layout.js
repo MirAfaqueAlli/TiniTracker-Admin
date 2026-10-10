@@ -5,7 +5,13 @@ export const metadata = {
   title: 'TiniTracker Provider Admin — Platform Control Center',
   description: 'Enterprise superadmin dashboard for TiniTracker maternal & infant health tracking infrastructure.',
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/apple-icon.png',
+    shortcut: '/favicon.ico',
   },
 };
 
